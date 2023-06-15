@@ -80,7 +80,7 @@
 ```
 **NB** fasta and squiggle files generated are excluded from tree.
 
-The conda environment I used for the notebooks has been exported to [analysis_env.yml](analysis_env.yml). This however assumes Guppy version 6.4.6. This may need changing to match your Guppy version.
+The conda environment used for the notebooks has been exported to [analysis_env.yml](analysis_env.yml). This however assumes Guppy version 6.4.6. This may need changing to match your Guppy version.
 
 For notebook details, see [NOTEBOOKS.md](notebooks/NOTEBOOKS.md).
 
