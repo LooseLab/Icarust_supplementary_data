@@ -2,6 +2,7 @@
 ```
 .
 ├── 9mer_levels_v1.txt
+├── analysis_env.yml
 ├── barcoding
 │   ├── fasta
 │   ├── __init__.py
@@ -31,16 +32,50 @@
 │   ├── hg38_no_alts.part_NC_000020.11 Homo sapiens chromosome 20, GRCh38.p14 Primary Assembly.fa.gz
 │   └── hg38_no_alts.part_NC_000020.11 Homo sapiens chromosome 20, GRCh38.p14 Primary Assembly.fa.gz.fxi
 ├── notebooks
+│   ├── barcoded_R10.ipynb
 │   ├── generate_prefix.ipynb
 │   ├── generate_reads.ipynb
+│   ├── hg38_contig_to_human_readable.txt
+│   ├── icarust_playback_analysis.ipynb
 │   ├── model_denormalisation.ipynb
 │   ├── NOTEBOOKS.md
+│   ├── playback_paf_files
+│   │   ├── adaptive_icarust_playback.paf
+│   │   └── control_icarust_playback.paf
 │   ├── R10_barcodes.ipynb
+│   ├── R10_paf_files
+│   │   ├── adaptive_icarust_R10.paf
+│   │   └── control_icarust_R10.paf
+│   ├── R9_paf_files
+│   │   ├── adaptive_icarust_R9.paf
+│   │   └── control_icarust_R9.paf
+│   ├── screenshots
+│   │   ├── icarust_full.png
+│   │   └── real_full.png
+│   ├── seq_sums
+│   │   ├── adaptive
+│   │   │   ├── sequencing_summary_0.txt
+│   │   │   ├── sequencing_summary_1.txt
+│   │   │   ├── sequencing_summary_2.txt
+│   │   │   ├── sequencing_summary_3.txt
+│   │   │   ├── sequencing_summary_4.txt
+│   │   │   ├── sequencing_summary_5.txt
+│   │   │   ├── sequencing_summary_6.txt
+│   │   │   └── sequencing_summary_7.txt
+│   │   └── control
+│   │       ├── sequencing_summary_0.txt
+│   │       ├── sequencing_summary_1.txt
+│   │       ├── sequencing_summary_2.txt
+│   │       ├── sequencing_summary_3.txt
+│   │       ├── sequencing_summary_4.txt
+│   │       └── sequencing_summary_5.txt
 │   └── working
 │       ├── 080623161626
 │       │   └── model_test.tsv
 │       └── model_test.tsv
 └── README.md
+
+
 
 ```
 **NB** fasta and squiggle files generated are excluded from tree.
