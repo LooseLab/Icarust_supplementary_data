@@ -45,6 +45,8 @@
 ```
 **NB** fasta and squiggle files generated are excluded from tree.
 
+The conda environment I used for the notebooks has been exported to [analysis_env.yml](analysis_env.yml). This however assumes Guppy version 6.4.6. This may need changing to match your Guppy version.
+
 For notebook details, see [NOTEBOOKS.md](notebooks/NOTEBOOKS.md).
 
 **Barcoding** holds the Fasta files and squiggle generated in [R10_barcodes.ipynb](notebooks/R10_barcodes.ipynb), using the model values in the .tsv file, derived from [model_denormalisation.ipynb](notebooks/model_denormalisation.ipynb).
